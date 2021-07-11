@@ -7,7 +7,7 @@ const ua = require('random-useragent');
 
 const SEARCH = 'https://www.google.com/search';
 const WHOIS = 'https://www.whois.com/whois/';
-const API_KEY = '37deb275c680ea8c0dbc3848c7727747';
+const API_KEY = '';
 
 pe.use(ps());
 // ac.setAPIKey(API_KEY);

@@ -1,7 +1,7 @@
 const ac = require("@antiadmin/anticaptchaofficial");
 
 
-const API_KEY = '37deb275c680ea8c0dbc3848c7727747';
+const API_KEY = '';
 
 ac.setAPIKey(API_KEY);
 
