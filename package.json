@@ -1,0 +1,31 @@
+{
+  "name": "reformatter",
+  "version": "1.0.0",
+  "description": "Clean up excel results from ScrapeBox",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --no-deprecation app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xlxs",
+    "excel"
+  ],
+  "author": "Ariel M",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.14",
+    "cheerio": "^1.0.0-rc.9",
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.2.1",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^9.1.1",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "random-useragent": "^0.5.0",
+    "xlsx": "^0.16.9"
+  }
+}
